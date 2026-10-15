@@ -1,0 +1,6 @@
+pandas
+numpy
+pykrx
+pandas-ta
+openpyxl
+matplotlib

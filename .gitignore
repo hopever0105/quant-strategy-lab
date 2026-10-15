@@ -179,3 +179,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# 개인 정보 / 보유종목
+holdings.xlsx
+signals_result.xlsx
+holdings_result.xlsx
+*.key
+.env
+
+# 원본 데이터와 캐시
+data/raw/
+*.db
+*.pkl
