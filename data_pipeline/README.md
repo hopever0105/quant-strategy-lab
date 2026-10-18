@@ -19,6 +19,9 @@
 | `kr_tradingview.py` | TradingView 스크리너, tvDatafeed, yahooquery | 국내 티커, 주가, 현재 시점 재무 지표 |
 | `us_tradingview.py` | 동일 | 미국 티커, 주가, 현재 시점 재무 지표 |
 | `fdr_kr_us.py` | FinanceDataReader, 네이버 요약재무, yahooquery | 국내·미국 티커, 주가, 재무 |
+| kr_collect_core.py | 국내 종목 목록, 시가총액, 수정주가, 업종, FnGuide 재무를 MySQL에 저장|
+| kr_dart_long.py| OpenDART 2013~2025 연간 재무와 2015년 이전 가격 보강| 
+|  kr_delisted.py | 2015년 이후 상장폐지 종목 목록과 가격 | KRX 로그인 세션 사용| 
 
 ---
 

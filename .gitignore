@@ -185,6 +185,7 @@ holdings.xlsx
 signals_result.xlsx
 holdings_result.xlsx
 .env
+*.env
 *.key
 data/raw/
 *.db

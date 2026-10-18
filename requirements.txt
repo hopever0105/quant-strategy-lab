@@ -14,3 +14,4 @@ tradingview-screener
 tvdatafeed-enhanced
 yahooquery
 finance-datareader
+matplotlib
