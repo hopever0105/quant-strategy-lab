@@ -103,42 +103,7 @@ setx DB_PW "비밀번호"
 - t값은 거래가 독립이라고 가정하므로 실제보다 큽니다. 자본 제약과 동시 보유 수는 반영하지 않았습니다.
 - Pine 포팅의 체결 가정이 TradingView 전략 테스터와 같은지는 확인하지 못했습니다.
 
-## GitHub에 올리기 전 확인
 
-- 비밀번호, API 키가 들어간 파일은 올리지 않습니다. 기존 수집 코드에 접속 정보가 직접 적혀 있다면 환경변수 방식으로 바꾼 뒤 올리고, 이미 커밋한 적이 있다면 비밀번호를 바꾸세요.
-- 아래 `.gitignore`를 사용합니다.
-
-```gitignore
-# 접속 정보
-.env
-*.env
-config.local.py
-secrets.*
-
-# 환경, 캐시
-__pycache__/
-*.pyc
-.spyproject/
-.ipynb_checkpoints/
-
-# 데이터
-data/
-*.csv
-*.parquet
-```
-
-## 권장 폴더 구조
-
-```text
-.
-├── README.md
-├── obv_keltner_backtest.py      # 이 프로젝트의 메인 코드 (셀 0~15)
-├── data_collection/             # 가격, 티커 수집 코드
-├── report/
-│   ├── OBV_Keltner_Backtest_Report.pdf
-│   └── OBV_Keltner_Backtest_Report.docx
-└── .gitignore
-```
 
 ## 면책
 
