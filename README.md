@@ -20,6 +20,7 @@
 |---|---|---|
 | [📈 src/heikin_ashi](src/heikin_ashi) | 하이킨아시 신호 스캐너 + 보유종목 점검 | ✅ 스캐너 · 🔨 백테스트 진행 중 |
 | [💎 src/value_screen](src/value_screen) | 한국 주식 그레이엄·버핏식 가치 스크리닝과 백테스트 | ✅ 코드 작성 |
+| [📉 src/macd_rsi_swing](src/macd_rsi_swing) | MACD 골든크로스·RSI 다이버전스 스윙 전략 백테스트 (한국 1999~2026, 상장폐지 포함) | ✅ 백테스트·보고서 — 비용 후 우위 없음 |
 | [🗄️ data_pipeline](data_pipeline) | 국내·미국 시장 데이터 수집 코드 (MySQL 저장) | ✅ 수집 코드 완료 |
 | [📄 data](data) | 스캐너 입력 파일 설명 (실제 데이터는 미포함) | - |
 
