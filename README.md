@@ -21,6 +21,7 @@
 | [📈 src/heikin_ashi](src/heikin_ashi) | 하이킨아시 신호 스캐너 + 보유종목 점검 | ✅ 스캐너 · 🔨 백테스트 진행 중 |
 | [💎 src/value_screen](src/value_screen) | 한국 주식 그레이엄·버핏식 가치 스크리닝과 백테스트 | ✅ 코드 작성 |
 | [📉 src/macd_rsi_swing](src/macd_rsi_swing) | MACD 골든크로스·RSI 다이버전스 스윙 전략 백테스트 (한국 1999~2026, 상장폐지 포함) | ✅ 백테스트·보고서 — 비용 후 우위 없음 |
+| [🧮 src/els_stepdown](src/els_stepdown) | KOSPI200·S&P500 2자산 스텝다운 ELS 몬테카를로 평가 (콴토, 해석해 검증, 민감도, 과거 경로 비교) | ✅ 평가·보고서 — 공정 쿠폰 연 8.07%(기본) |
 | [🗄️ data_pipeline](data_pipeline) | 국내·미국 시장 데이터 수집 코드 (MySQL 저장) | ✅ 수집 코드 완료 |
 | [📄 data](data) | 스캐너 입력 파일 설명 (실제 데이터는 미포함) | - |
 
