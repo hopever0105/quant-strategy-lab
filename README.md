@@ -23,6 +23,7 @@
 | [📉 src/macd_rsi_swing](src/macd_rsi_swing) | MACD 골든크로스·RSI 다이버전스 스윙 전략 백테스트 (한국 1999~2026, 상장폐지 포함) | ✅ 백테스트·보고서 — 비용 후 우위 없음 |
 | [🧮 src/els_stepdown](src/els_stepdown) | KOSPI200·S&P500 2자산 스텝다운 ELS 몬테카를로 평가 (콴토, 해석해 검증, 민감도, 과거 경로 비교) | ✅ 평가·보고서 — 공정 쿠폰 연 8.07%(기본) |
 | [🔁 src/cb_lsmc](src/cb_lsmc) | 전환사채 LSMC 평가 (미국형 전환권·조기상환청구권·리픽싱, 해석해·이항트리 검증, TF 신용위험) | ✅ 평가·보고서 — CB 가치 134.13(액면 100) |
+| [🐢 src/turtle_ml_allocation](src/turtle_ml_allocation) | 25개 ETF 다자산 터틀 추세추종 + 머신러닝 메타 라벨링 (1998~2007 학습, 2008~2026 표본 밖, 가짜 학습 대조) | ✅ 백테스트·보고서 — 하락장 방어, ML은 개선 없음 |
 | [🗄️ data_pipeline](data_pipeline) | 국내·미국 시장 데이터 수집 코드 (MySQL 저장) | ✅ 수집 코드 완료 |
 | [📄 data](data) | 스캐너 입력 파일 설명 (실제 데이터는 미포함) | - |
 
