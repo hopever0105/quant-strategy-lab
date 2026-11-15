@@ -25,6 +25,7 @@
 | [🔁 src/cb_lsmc](src/cb_lsmc) | 전환사채 LSMC 평가 (미국형 전환권·조기상환청구권·리픽싱, 해석해·이항트리 검증, TF 신용위험) | ✅ 평가·보고서 — CB 가치 134.13(액면 100) |
 | [🐢 src/turtle_ml_allocation](src/turtle_ml_allocation) | 25개 ETF 다자산 터틀 추세추종 + 머신러닝 메타 라벨링 (1998~2007 학습, 2008~2026 표본 밖, 가짜 학습 대조) | ✅ 백테스트·보고서 — 하락장 방어, ML은 개선 없음 |
 | [🏗️ src/order_backlog](src/order_backlog) | 수주잔고 전략: 수주잔고가 매출보다 빨리 쌓이는 종목 매수 (한국 수주 업종 2016~, 미국 S&P500 2019~, DART·SEC 원문) | ✅ 백테스트·보고서 — 한국 연 33.7%(코스피 대비 알파 t 2.96), 미국은 SPY 수준 |
+| [🏷️ src/midcap_value](src/midcap_value) | 래리 윌리엄스 추천 중형 가치주 ETF(VOE·Fidelity) vs SPY·QQQ, 6팩터 특성 추출, 한국판 중형 가치 지수(코스피, 상장폐지 포함) | ✅ 검증·보고서 — 미국·한국 모두 시장에 열위, 금리 상승 뒤 가치주 우위(2001~, t 2.7)는 보조 신호 |
 | [🗄️ data_pipeline](data_pipeline) | 국내·미국 시장 데이터 수집 코드 (MySQL 저장) | ✅ 수집 코드 완료 |
 | [📄 data](data) | 스캐너 입력 파일 설명 (실제 데이터는 미포함) | - |
 
